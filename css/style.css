@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Whitneybold';
+    src: url('../font/whitneybold.otf');
+    font-family: 'Helvetica Neue';
+    src: url('../font/HelveticaNeueMedium.otf')
+  }
+
+/* Intestazione */
+
+header {
+    display:flex;
+    justify-content: center;
+    height: 75px;
+    background-color: rgba(37,94,233,255);
+    width: 100%;
+}
+
+.Accedi {
+    align-self: center;
+    margin: 10px;
+    font-size: 25px;
+}
+
+h1 {
+    font-family: 'Whitneybold';
+    font-size: 70px;
+}
+
+p {
+    font-family: 'Helvetica Neue';
+}
+
+nav {
+    border-style: dashed;
+}
+
+div {
+    border-style: dashed;
+}
+
+.nav-header {
+    background-color: orange;
+    height: 50px; 
+    align-self: center;
+    display: flex;
+    justify-content: flex-start
+}
+
+.laterale {
+    width: 13.4%;
+    height: 50px;
+}
+
+.dx {
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.centrale {
+    width: 40.2%;
+    height: 50px;
+    justify-content: center;
+}
+
+/* jumbotron */
+
+.jumbotron {
+    background-image: url(../img/jumbo.png);
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.download-discord {
+    height: 500px;
+    align-self: center;
+    width: 50%;
+    color: white;
+    text-align: center;
+    width: 875px;
+}
+
+/* Sezioni */
+
+.container-blue {
+    background-color: lightskyblue;
+    height: 500px;
+    width: 33%;
+    align-self: center;        
+}
+
+.container-pink {
+    background-color: pink;
+    height: 500px;
+    width: 20%;    
+    align-self: center;  
+}
+
+.sezione-grande {
+    height: 1500px;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+
+.greenbox {
+    background-color: green;
+    height: 1350px;
+    width: 66%;
+    align-self: center;
+}
+
+.dispari {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.pari {
+    background-color: gray;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+/* Ultima section */
+
+.ultima {
+    background-color: black;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+}
+
+.red {
+    background-color: rgba(255, 0, 85, 0.979);
+    height: 850px;
+    width: 20%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.aquamarine {
+    background-color: aquamarine;
+    height: 850px;
+    width: 10%;
+    border-color: white;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+/* pié di pagina*/
+
+footer {
+    height: 75px;
+    width: 100%;
+    background-color:black;
+    margin-top: 2px;
+    display:flex;
+    justify-content: center;;
+}
+
+.container-pièdipagina {
+    display: flex;
+    justify-content: space-between;
+    width: 66%;
+    background-color: rgb(127, 208, 255);
+    margin-top: 25px
+}
+
+.nav-pièdipagina {
+    margin: 25%, 50%, 0, 50%;
+    background-color: grey;
+    align-self: center;
+}
+
+#container-finale {
+    border-style: none;
+}
