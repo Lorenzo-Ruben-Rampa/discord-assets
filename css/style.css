@@ -133,7 +133,6 @@ p {
 
 .container-img-reverse {
     margin-left: 200px;
-    margin-right: 200px;
     margin-top: 130px; 
 }
 
@@ -145,6 +144,7 @@ p {
 .sezione-grande {
     display: flex;
     justify-content: center;
+    background-color: grey;
 }
 
 .greenbox {
@@ -176,18 +176,32 @@ p {
     margin-top: 50px;
 }
 
+.wave {
+    background-image: url(../img/wave.svg);
+    height: 200px;
+}
+
+.white-wave {
+    background-image: url(../img/white-wave.svg);
+    height: 100px;
+    width: 100%;
+    margin-top: -100px;
+
+}
+
 .dispari {
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    margin-bottom: 400px;
+    margin-bottom: 200px;
 }
 
 .pari {
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
-    margin-bottom: 400px;
+    background-color: grey;
+    padding-bottom: 300px;
 }
 
 .light-blue {
