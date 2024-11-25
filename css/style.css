@@ -21,7 +21,7 @@ header {
     width: 100%;
 }
 
-.Accedi {
+button {
     align-self: center;
     margin: 10px;
     font-size: 15px;
@@ -34,19 +34,34 @@ header {
     border-radius: 20px;
 }
 
+.dark {
+    background-color: rgb(31, 30, 30);
+    color: white;
+    font-size: 20px;
+}
+
+.light {
+    font-size: 20px;
+}
+
 h1 {
-    font-family: 'Whitneybold';
-    font-size: 70px;
+    font-family: Helvetica;
+    font-size: 60px;
+    margin-top: 70px;
+}
+
+a {
+    font-family: 'Helvetica Neue';
+    color: white;
+    margin: 30px;
+    text-decoration: none;
 }
 
 p {
-    font-family: 'Helvetica Neue';
-    color: white;
-    gap: 30px, 15px;
-}
-
-div {
-    border-style: dashed;
+    font-style: 'Whitneybold';
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .nav-header {
@@ -57,7 +72,7 @@ div {
 }
 
 .laterale {
-    width: 25.4%;
+    width: 20%;
     height: 50px;
 }
 
@@ -67,7 +82,7 @@ div {
 }
 
 .centrale {
-    width: 70%;         
+    width: calc(100% / 5 -60px);        
     height: 50px;
     justify-content: center;
 }
@@ -80,6 +95,7 @@ div {
     display: flex;
     justify-content: center;
     border: none;
+    background-size: cover;
 }
 
 .download-discord {
@@ -94,14 +110,12 @@ div {
 /* Sezioni */
 
 .container-blue {
-    background-color: lightskyblue;
     height: 500px;
     width: 33%;
     align-self: center;        
 }
 
 .container-pink {
-    background-color: pink;
     height: 500px;
     width: 20%;    
     align-self: center;  
@@ -111,11 +125,9 @@ div {
     height: 1500px;
     display: flex;
     justify-content: center;
-    background-color: gray;
 }
 
 .greenbox {
-    background-color: green;
     height: 1350px;
     width: 66%;
     align-self: center;
@@ -130,17 +142,21 @@ div {
 }
 
 .pari {
-    background-color: gray;
     height: 600px;
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
 }
 
+.light-blue {
+    background-color: rgb(114, 160, 245);
+    color: white;
+}
+
 /* Ultima section */
 
 .ultima {
-    background-color: black;
+    background-color: rgb(31, 30, 30);
     height: 900px;
     display: flex;
     justify-content: center;
@@ -148,7 +164,6 @@ div {
 }
 
 .red {
-    background-color: rgba(255, 0, 85, 0.979);
     height: 850px;
     width: 20%;
     margin-bottom: 30px;
@@ -156,7 +171,6 @@ div {
 }
 
 .aquamarine {
-    background-color: aquamarine;
     height: 850px;
     width: 10%;
     border-color: white;
@@ -169,7 +183,7 @@ div {
 footer {
     height: 75px;
     width: 100%;
-    background-color:black;
+    background-color:rgb(31, 30, 30);
     margin-top: 2px;
     display:flex;
     justify-content: center;;
@@ -179,13 +193,12 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 66%;
-    background-color: rgb(127, 208, 255);
+    background-color: rgb(31, 30, 30);
     margin-top: 25px
 }
 
 .nav-pièdipagina {
     margin: 25%, 50%, 0, 50%;
-    background-color: grey;
     align-self: center;
 }
 
