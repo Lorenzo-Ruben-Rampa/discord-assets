@@ -48,6 +48,7 @@ h1 {
     font-family: Helvetica;
     font-size: 60px;
     margin-top: 70px;
+    margin-bottom: 20px;
 }
 
 a {
@@ -109,13 +110,13 @@ p {
 
 /* Sezioni */
 
-.container-blue {
+.container-img {
     height: 500px;
     width: 33%;
     align-self: center;        
 }
 
-.container-pink {
+.container-testo {
     height: 500px;
     width: 20%;    
     align-self: center;  
@@ -163,19 +164,21 @@ p {
     margin-bottom: 3px;
 }
 
-.red {
+.container-lingua-icone {
     height: 850px;
     width: 20%;
     margin-bottom: 30px;
     margin-top: 10px;
 }
 
-.aquamarine {
+.container-colonna {
     height: 850px;
     width: 10%;
     border-color: white;
     margin-bottom: 30px;
     margin-top: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* pié di pagina*/
@@ -204,4 +207,21 @@ footer {
 
 #container-finale {
     border-style: none;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin: 15px;
+}
+
+.finale {
+    color: white;
+    margin: 7px;
+
+}
+
+.titolo-colonna {
+    color: rgb(90, 133, 211);
+    margin: 7px;
 }
