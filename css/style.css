@@ -98,8 +98,7 @@ p {
     flex-direction: row-reverse;
 }
 
-.centrale {
-    width: calc(100% / 5 -60px);        
+.centrale {      
     height: 50px;
     justify-content: center;
 }
@@ -159,10 +158,9 @@ p {
 }
 
 .img-centrale {
-    background-color: url(../img/item4-big.svg);
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    display: block;
 }
 
 .star {
